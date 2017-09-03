@@ -5,11 +5,11 @@ public class ArrayFizz {
         int n[] = new int[100];
         for (int i=0; i<n.length; i++){
             if((n[i]=i+1)%15 == 0){
-                System.out.println("fizzbuzz");}
+                System.out.println("FizzBuzz");}
             else if ((n[i]=i+1)%3 == 0){
-                System.out.println("fizz");}
+                System.out.println("Fizz");}
             else if ((n[i]=i+1)%5 == 0){
-                System.out.println("buzz");}
+                System.out.println("Buzz");}
             else {
             System.out.println(n[i]);}
         }
